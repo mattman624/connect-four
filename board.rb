@@ -69,7 +69,7 @@ class Board
 
   def collect_paths(column, row)
     paths = []
-    puts "collecting paths"
+   
     paths << get_vertical_path(column)
     paths << get_horizontal_path(row)    
     paths << get_upward_path(column, row)
